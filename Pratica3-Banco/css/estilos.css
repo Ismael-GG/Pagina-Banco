@@ -1,0 +1,247 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.textoInformativo{
+    color: #12499b;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    height: 100px;
+}
+
+/*header*/
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #ffffff;
+}
+
+.herramientasContenedor{
+    display:flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.botones{
+    padding: 8px 18px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}   
+
+#btn1{
+    background-color: #12499b;
+}
+
+#btn1:hover{
+    background-color: #2254a0;
+}
+
+#btn2{
+    background-color: rgb(43, 216, 43);
+}
+
+#btn2:hover{
+    background-color: rgb(71, 212, 71);
+}
+
+.containerIco{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.iconos{
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.searchContainer {
+    display: flex;
+    border: 1px solid #cccccc;
+    border-radius: 4px; 
+    overflow: hidden;
+    height: 35px;
+}
+.input-buscador {
+    border: 40px;
+    padding: 0 10px;
+    width: 150px;
+    outline: none;
+}
+.btn-buscar {
+    background-color: #12499b; 
+    color: white;
+    border: none;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.botonesPrincipales{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/*navBar*/
+.navBar{
+    color: white;
+    background-color: #12499b;
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 50px;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.navLink{
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: background-color 0.2 ease;
+}
+
+.navLink:hover{
+    background-color:#2254a0;
+}
+
+/*contenedor*/
+
+.container{
+    background-color: aqua;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.imgCont{
+    height: 100%;
+    width: 100%;
+}
+
+/*foot*/
+
+.foot{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.list{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.list:hover
+{
+    text-decoration: underline;
+}
+
+.footForm{
+    display:flex;
+    flex-direction: row;
+}
+
+.input {
+    border-radius: 30px;
+}
+
+.textArea{
+    border-radius: 15px;
+    resize: vertical;
+}
+
+#sendBTN{
+    background-color: #12499b;
+    color: white;
+    border: 30px;
+    border-radius: 50px;
+}
+
+.footIMG{
+    background-color: #fcfcfc; 
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.sellos-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    margin-bottom: 30px;
+}
+.sello {
+    height: 60px;
+    object-fit: contain;
+}
+
+.linea-divisoria {
+    border: none;
+    border-top: 1px solid #eaeaea;
+    max-width: 800px;
+    margin: 0 auto 30px auto; 
+}
+
+.redes-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.icono-red img {
+    width: 35px; 
+    height: 35px;
+    transition: transform 0.2s ease;
+}
+.icono-red:hover img {
+    transform: scale(1.1);
+}
+
+.titulo-app {
+    color: #12499b; 
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.botones-app {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.btn-tienda {
+    height: 45px; 
+    object-fit: contain;
+}
+
+/*footer*/
+
+footer{
+    background-color: #12499b;
+    display: flex;
+    flex-direction: bottom;
+    align-items: center;
+     justify-content: center;
+}
+
+#copy{
+    color: white;
+}
